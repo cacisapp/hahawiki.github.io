@@ -1,0 +1,233 @@
+@import url(/fonts/pt-sans.css);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+body {
+	font-family: 'PT Sans', Tahoma, 'Open Sans', 'Helvetica Neue', Helvetica, 'Gill Sans', Arial, 'Hiragino Sans GB', 'Heiti SC', 'Heiti TC', 'Hiragino Gothic Pro', 'STHeiti', 'STXiHei', 'Microsoft YaHei', sans-serif;
+	color: #444;
+	background: #FEFEF5;
+
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	color: #595959;
+}
+
+.header-in {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.header-in > * {
+	height: 42px;
+}
+
+a.to-mainpage-link, a.to-mainpage-link:hover, a.to-mainpage-link:visited, a.to-mainpage-link:active {
+	color: inherit;
+	text-decoration: none;
+
+	display: block;
+}
+
+.xuan-kanji {
+	display: block;
+	width: 260px;
+	height: 260px;
+	margin: 0 auto;
+}
+
+.header h1, .header h2 {
+	font-weight: normal;
+
+	display: inline-block;
+	margin: 0;
+}
+
+.header h1 {
+	font-size: 2em;
+}
+
+.header h1 a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.header h2 {
+	font-size: 1em;
+
+	padding: 12px 0 0 0;
+}
+
+.header h2::before {
+	content: "，";
+}
+
+.header-text {
+
+}
+
+.header-social {
+	text-align: right;
+
+	padding: 0 0 0 40px;
+}
+
+.header-social a {
+	color: inherit;
+	text-decoration: none;
+
+	padding: 0;
+	margin: 0;
+}
+
+.link-to-github {
+	font-size: 16px;
+}
+
+.view-edit-history {
+	font-size: 12px;
+}
+
+.header-social a:hover {
+}
+
+.cont {
+}
+
+.main {
+	background: #FFF;
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.233333) 0 1px 3px 0;
+
+	box-sizing: border-box;
+	padding: 10px 25px;
+	margin: 0 auto;
+}
+
+.main h1, .main h2, .main h3 {
+	font-weight: normal;
+}
+
+.main h1 {
+	font-size: 1.5em;
+	border-bottom: 1px solid #CCC;
+
+	margin-bottom: 0.875em;
+}
+
+.main h2 {
+	font-size: 1.25em;
+	border-bottom: 1px solid #EEE;
+}
+
+.main h3 {
+	font-size: 1.125em;
+}
+
+.main h4, .main h5, .main h6 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.main p {
+	line-height: 1.85em;
+}
+
+.main ul li, .main ol li {
+	line-height: 1.25em;
+}
+
+.main a {
+	text-decoration: none;
+}
+
+.main a:link {
+	color: #4259B2;
+}
+
+.main a:visited {
+	color: #874BA3;
+}
+
+.main a:hover, .main a:active {
+	text-decoration: underline;
+}
+
+.main code {
+	background: #F0F0EE;
+	border-radius: 3px;
+	box-shadow: #F0F0EE 0 0 0 2px;
+
+	padding: 0 2px;
+}
+
+.footer {
+	font-size: 14px;
+	color: #777;
+
+	padding: 12px 0;
+}
+
+.footer-note {
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+.footer-note a {
+	color: inherit;
+}
+
+.footer-note a:hover {
+	color: #4763E0;
+}
+
+.invisible-img {
+	position: fixed;
+	top: 0;
+	left: 110%;
+	width: 1px;
+	height: 1px;
+	opacity: 0.001;
+}
+
+@media screen and (min-width: 860px) {
+	body {
+		font-size: 16px;
+	}
+	.header-in, .main, .footer-note {
+		width: 700px;
+	}
+	.header-in {
+		padding: 15px 25px;
+	}
+	.header-social {
+		float: right;
+	}
+	.main {
+		padding: 15px 25px;
+	}
+	.footer-inside-left {
+		float: left;
+	}
+	.footer-inside-right {
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	body {
+		font-size: 20px;
+	}
+	.header-in, .main, .footer-note {
+		padding: 15px;
+	}
+	.header-social {
+		display: none;
+	}
+	.main {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}

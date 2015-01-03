@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }} — 蛤蛤百科，江膜蛤进行到底</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/style.css">
+	<script type="text/javascript" src="/main.js"></script>
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" href="/favicon.jpg" />
+</head>
+<body>
+	<header class="header" id="header">
+		<a href="/wiki/首页" class="to-mainpage-link"><img src="/xuan.svg" class="xuan-kanji"></a>
+		<div class="header-in">
+			<div class="header-social">
+				<div><a class="link-to-github" href="https://github.com/hahawiki/hahawiki.github.io"><i class="fa fa-github"></i> GitHub</a></div>
+				<div>
+					<a rel="nofollow" class="view-edit-history" href="https://github.com/hahawiki/hahawiki.github.io/edit/master/_posts/2014-08-25-{{ page.title }}.md">编辑</a> &middot; <a class="view-edit-history" href="https://github.com/hahawiki/hahawiki.github.io/commits/master/_posts/2014-08-25-{{ page.title }}.md">历史</a>
+				</div>
+			</div>
+			<hgroup class="header-text">
+				<a href="/wiki/首页" class="to-mainpage-link">
+					<h1>蛤蛤百科</h1>
+					<h2>江膜蛤进行到底</h2>
+				</a>
+			</hgroup>
+		</div>
+	</header>
+	<div class="cont">
+		<div class="main">
+			<h1>{{ page.title }}</h1>
+{{ content }}
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer-note">
+			<div class="footer-inside-left">
+				© 2015 社会上流膜蛤人士.<br />
+				蛤蛤百科托管于 <a href="https://github.com/">GitHub</a>
+			</div>
+			<div class="footer-inside-right">
+				本站文章以 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可证释出<br />
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
